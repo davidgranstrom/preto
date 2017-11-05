@@ -196,6 +196,7 @@ call s:HL('StatusLine' 	  , s:palette.white	, s:palette.black , 'none'	   , 'gui
 call s:HL('StatusLineNC'  , s:palette.white	, s:palette.black , 'none'	   , 'gui_macvim')
 call s:HL('Tag'			  , s:palette.white	, s:palette.black , 'none'	   )
 call s:HL('WildMenu'   	  , s:palette.white	, s:palette.black , 'none'	   )
+call s:HL('SignColumn' 	  , s:palette.white	, s:palette.gray01, 'none'	   )
 
 " DIFF
 call s:HL('DiffAdd'		  , s:palette.white , s:palette.green , 'none'	   )
